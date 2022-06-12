@@ -1,0 +1,94 @@
+[
+    {
+       "id":1,
+       "name":"Leather Long Wallet",
+       "color":"Natural",
+       "price":"$75.00",
+       "href":"#",
+       "imageSrc":"https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg",
+       "imageAlt":"Hand stitched, orange leather long wallet.",
+       "availableColors":[
+          {
+             "name":"Black",
+             "colorBg":"#111827"
+          },
+          {
+             "name":"Brass",
+             "colorBg":"#FDE68A"
+          },
+          {
+             "name":"Chrome",
+             "colorBg":"#E5E7EB"
+          }
+       ]
+    },
+    {
+       "id":2,
+       "name":"Machined Pen",
+       "color":"Black",
+       "price":"$35.00",
+       "href":"#",
+       "imageSrc":"https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-03.jpg",
+       "imageAlt":"Black machined steel pen with hexagonal grip and small white logo at top.",
+       "availableColors":[
+          {
+             "name":"Black",
+             "colorBg":"#111827"
+          },
+          {
+             "name":"Brass",
+             "colorBg":"#FDE68A"
+          },
+          {
+             "name":"Chrome",
+             "colorBg":"#E5E7EB"
+          }
+       ]
+    },
+    {
+       "id":3,
+       "name":"Mini-Sketchbooks",
+       "color":"Light Brown",
+       "price":"$27.00",
+       "href":"#",
+       "imageSrc":"https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-04.jpg",
+       "imageAlt":"Set of three light and dark brown mini sketch books.",
+       "availableColors":[
+          {
+             "name":"Black",
+             "colorBg":"#111827"
+          },
+          {
+             "name":"Brass",
+             "colorBg":"#FDE68A"
+          },
+          {
+             "name":"Chrome",
+             "colorBg":"#E5E7EB"
+          }
+       ]
+    },
+    {
+       "id":4,
+       "name":"Machined Pen",
+       "color":"Walnut",
+       "price":"$149.00",
+       "href":"#",
+       "imageSrc":"https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-01.jpg",
+       "imageAlt":"Black machined steel pen with hexagonal grip and small white logo at top.",
+       "availableColors":[
+          {
+             "name":"Black",
+             "colorBg":"#111827"
+          },
+          {
+             "name":"Brass",
+             "colorBg":"#FDE68A"
+          },
+          {
+             "name":"Chrome",
+             "colorBg":"#E5E7EB"
+          }
+       ]
+    }
+ ]
