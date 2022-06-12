@@ -7,7 +7,6 @@ import java.util.Map;
 import com.brownbag.payment.dto.CreatePaymentIntentRequest;
 import com.brownbag.payment.exception.ApiError;
 import com.brownbag.payment.service.StripeService;
-import com.stripe.Stripe;
 import com.stripe.model.PaymentIntent;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,7 +23,7 @@ public class PaymentController {
     
     @Autowired
     private StripeService stripeService;
-    
+
     
     @PostMapping("/payment-intent")
     public ResponseEntity<?> createSetupIntent(@RequestBody CreatePaymentIntentRequest request) {

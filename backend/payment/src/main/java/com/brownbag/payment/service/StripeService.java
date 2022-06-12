@@ -29,8 +29,8 @@ public class StripeService {
         
         products.add(Product.builder().id(1).amount(75.00).build());
         products.add(Product.builder().id(2).amount(35.00).build());
-        products.add(Product.builder().id(3).amount(25.00).build());
-        products.add(Product.builder().id(4).amount(27.00).build());
+        products.add(Product.builder().id(3).amount(27.00).build());
+        products.add(Product.builder().id(4).amount(149.00).build());
         
         return products;
     }
@@ -50,6 +50,12 @@ public class StripeService {
         Long longTotal = Math.round(amount * 100); 
         
         return longTotal;
+    }
+    
+    public Double getDoubleAmount(Long amount) {
+        Double total = (double) (amount / 100); 
+        
+        return total;
     }
     
     public PaymentIntent createPaymentIntent(int productId) throws StripeException {
